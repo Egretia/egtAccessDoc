@@ -2,7 +2,7 @@ const Web3 = require('web3');
 const EthWallet = require("ethereumjs-wallet"); // https://github.com/ethereumjs
 const EthereumTx = require('ethereumjs-tx');
 const ERC20 = require("./erc20abi");
-const TokenAddr = "0xbdb3e0f8633b40d0c5c130862a2739f6da06e46a"; // A ERC20 contract in Ropsten-TestNet that just for your testing.
+const TokenAddr = "0x8e1b448ec7adfc7fa35fc2e885678bd323176e34"; // A ERC20 contract in Ropsten-TestNet that just for your testing.
 const NodeUrl = ""; // @todo write the HOST of Ethereum-Node 
 
 /**
