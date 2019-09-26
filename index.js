@@ -26,8 +26,8 @@ function testCreateKeypair() {
  */
 async function testSendTx(){
     let keypair =  {
-        priKey: '', // @todo write your private key here
-        address: '' // @todo write your address of from here
+        priKey: '3687c627430339623be19447dd545556aeea8b6c6fa5fbd9d5f8534316e4a09b', // @todo write your private key here
+        address: '0x53a6dd5641cbe2201949d5bb8d0babbab69c0da4' // @todo write your address of from here
     } ; // You can use testCreateKeypair generate the KeyPair
 
     let sendToAddr = "0x30056a9d28f768aA0363604660301481B30e5f34";
@@ -141,7 +141,7 @@ async function testQueryERC20Balance(address){
     return balance;
 }
 
-// testCreateKeypair();
+testCreateKeypair();
 // testSendTx();
 // testQueryTx("0xfb4e7b6e8e73939d590dcff64146aaf7997e841471ccd048ba22ef560202aa5c");
 // testQueryERC20Balance("0x30056a9d28f768aA0363604660301481B30e5f34");
