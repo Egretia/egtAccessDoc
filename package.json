@@ -1,0 +1,17 @@
+{
+  "name": "egtAccessDoc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "ethereumjs-tx": "^1.1.1",
+    "ethereumjs-util": "^4.3.1",
+    "ethereumjs-wallet": "^0.6.2",
+    "web3": "0.20.2"
+  },
+  "devDependencies": {
+    "async": "^1.4.2"
+  }
+}

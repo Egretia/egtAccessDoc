@@ -1,6 +1,15 @@
 # egtAccessDoc
 
-> Egretia token（EGT） 接入方法
+> Egretia token（EGT） 接入方法               
+
+## Notice    
+> This Example is a course for operating ERC20 token                
+
+## install        
+> npm install              
+
+## run       
+> npm start   
 
 ### 如何生成地址
 EGT 是发布在 Ethereum 网络中的代币合约，使用以太坊地址，nodejs可以使用 Ethereumjs 库实现公私钥以及地址生成，建议将生成的私钥经过对称加密后保存

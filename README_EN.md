@@ -1,6 +1,15 @@
 # egtAccessDoc
 
-> How to access Egretia token (EGT)?
+> How to access Egretia token (EGT)?          
+
+## Notice    
+> This Example is a course for operating ERC20 token                
+
+## install        
+> npm install              
+
+## run       
+> npm start   
 
 ### How to generate an address?
 EGT is a token contract published on the Ethereum network. Using the Ethereum address, nodejs can use the Ethereumjs library to implement public& private keys and generate new address. It is recommended that the generated private key be symmetrically encrypted and saved.
